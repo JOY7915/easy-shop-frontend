@@ -101,7 +101,7 @@ const Confirm = (props) => {
                           <Text>{x.name}</Text>
                         </Left>
                         <Right>
-                          <Text>₹ {x.price}</Text>
+                          <Text>$ {x.price}</Text>
                         </Right>
                       </Body>
                     </ListItem>

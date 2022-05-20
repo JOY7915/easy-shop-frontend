@@ -62,7 +62,7 @@ const SingleProduct = (props) => {
 
             <View style={styles.bottomContainer}>
                 <Left>
-                    <Text style={styles.price}>₹ {item.price}</Text>
+                    <Text style={styles.price}>$ {item.price}</Text>
                 </Left>
                 <Right>
                    <EasyButton 

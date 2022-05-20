@@ -42,7 +42,7 @@ const UserProfile = (props) => {
             const data = x.data;
             console.log(data)
             const userOrders = data.filter(
-                (order) => order.user.id === context.stateUser.user.sub
+                (order) => order.user._id === context.stateUser.user.sub
             );
             setOrders(userOrders);
         })

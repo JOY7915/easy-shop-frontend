@@ -64,7 +64,7 @@ const Products = (props) => {
                     .get(`${baseURL}products`)
                     .then((res) => {
                         setProductList(res.data);
-                        setProductFilter(res.data);
+                        // setProductFilter(res.data);
                         setLoading(false);
                     })
 

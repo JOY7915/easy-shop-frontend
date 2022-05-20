@@ -90,7 +90,7 @@ const Cart = (props) => {
           />
           <View style={styles.bottomContainer}>
             <Left>
-                <Text style={styles.price}>₹ {totalPrice}</Text>
+                <Text style={styles.price}>$ {totalPrice}</Text>
             </Left>
             <Right>
                 <EasyButton
